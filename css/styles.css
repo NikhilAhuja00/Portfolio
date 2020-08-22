@@ -2,10 +2,13 @@
 
 @import url(./partials/_variables.css);
 
-body {
-    position: relative;
+html {
+    scroll-behavior: smooth;
 }
 
+a {
+    cursor: pointer;
+}
 .about-section {
     height: 600px;
 }
@@ -126,12 +129,12 @@ body {
 
 
 .skills-section {
-    padding-bottom: 120px;
+    padding-bottom: 250px;
 }
 
 .skills-section h1{
     font: normal bold 49px/ 60px ;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .skill + .skill {
@@ -239,3 +242,6 @@ footer.footer-section .footer-icons a:hover > i{
     background-color: white;
 }
 
+.skills-section {
+    margin-top: 250px;
+}
